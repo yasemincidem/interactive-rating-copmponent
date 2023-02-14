@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interactive Rating Component</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="rate-state-container" class="container">
+    <div id="rate-state-star">&#9733;</div>
+    <div class="title">
+        How did we do ?
+    </div>
+    <div class="description">
+        Please let us know how we did with your support request.
+        All feedback is appreciated to help us improve our offering.
+    </div>
+    <div id="rate-state-values-container">
+        <button class="rate" value="1">1</button>
+        <button class="rate" value="2">2</button>
+        <button class="rate" value="3">3</button>
+        <button class="rate" value="4">4</button>
+        <button class="rate" value="5">5</button>
+    </div>
+    <div id="rate-state-submit">
+        SUBMIT
+    </div>
+</div>
+<div id="submit-state-container" class="container">
+    <div id="image-container">
+        <img src="image.svg" id="image"></img>
+    </div>
+    <div id="selected-rate-container">
+        You selected
+        <span id="selected-rate">1</span>
+        out of
+        <span id="top-rate">5</span>
+    </div>
+    <div class="title">
+        Thank you!
+    </div>
+    <div class="description">
+        We appreciate you are taking the time to give a rating.
+        If you ever need to more support, don't hesitate to get in touch.
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
